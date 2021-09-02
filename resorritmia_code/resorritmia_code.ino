@@ -1,4 +1,4 @@
-//rev 0.1 20210803
+//rev 0.2 20210902
 
 #define reso 144 //MCM de las subdivisiones ritmicas utilizadas
 #define multReso 1 // en caso de querer mejorar la resolución del índice
