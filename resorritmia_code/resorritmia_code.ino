@@ -48,7 +48,6 @@ int cvPin = A2;
 void setup() {
 
 // Serial.begin(9600);
-  pinMode(13, OUTPUT);
   indice = 0;
   onTime = 30;
   outTime = 30;
@@ -58,7 +57,7 @@ void setup() {
   ledInit();
 
   for (int i = 0; i <= 8; i++) {
-    pinMode(i, OUTPUT); //SALIDAS CHANNELS
+    pinMode(out[i], OUTPUT); //SALIDAS CHANNELS
   }
   pinMode(clockPin, INPUT);
   pinMode(resetPin, INPUT);
@@ -134,6 +133,8 @@ void loop() {
 //  Serial.println(cvIn);
 //  
 
+    outTime = (tempoMS /144)*4;
+    onTime = (tempoMS /144)*4;
 
 }
 
