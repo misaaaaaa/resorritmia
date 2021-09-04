@@ -5,6 +5,8 @@ https://www.youtube.com/watch?v=5FrmmSOtLdw
 
 De comportamiento similar a múltiples metrónomos sincronizados, Resorritmia es un generador de señales de clock de 9 subdivisiones [1, 2, 3, 4, 6, 8, 9, 12, 16], las cuales pueden ser utilizadas de forma simultánea. Esto puede ser usado de base para el diseño de futuras máquinas de estado, aparatos capaces de recibir señales y realizar instrucciones sencillar (contar, sumar, mover, sonar o prender). Al poseer un reloj común, pueden generar sincronías rítmicas entre los elementos que se conecten. Un comportamiento habitual en circuitos integrados como el CD4040BE, que divide en potencias de 2. Este módulo además incorpora divisiones en 3, permitiendo rítmicas ternarias, similares a las que se encuentran en la música latinoamericana 
 
+![image](https://github.com/misaaaaaa/resorritmia/blob/main/img/pattern.jpg)
+
 ## Especificaciones:
 
 - 9 salidas independientes, con divisiones por 1, 2, 3, 4, 6, 8, 9, 12, 16; de triggers positivos de aproximadamente 30ms de duración
